@@ -26,7 +26,7 @@ def main():
 
 
 
-				st.title("APP. CONFLITS : Gestion des données CHF")
+				st.title("APP.CONFLITS : Gestion des données CHF")
 
 				st.markdown("""
 					Cette Application est une version béta (en cours de developpement). Elle presente
