@@ -18,7 +18,7 @@ def main():
 		header = st.container()
 		dataset = st.container()
 		model_training = st.container()
-		st.sidebar.image("minef.png", use_column_width=False, width=50)
+		st.sidebar.image("minef.png", use_column_width=True, width=50)
 		st.sidebar.header('CONTROLEUR DE DONNEES')
 
 		with header:
