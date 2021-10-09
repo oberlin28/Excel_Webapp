@@ -18,7 +18,7 @@ def main():
 		header = st.container()
 		dataset = st.container()
 		model_training = st.container()
-		st.sidebar.image("minef.png", use_column_width=False, width=50)
+		st.sidebar.image("minef.png", use_column_width=False) #width=100#)
 		st.sidebar.header('CONTROLEUR DE DONNEES')
 
 		with header:
@@ -26,7 +26,7 @@ def main():
 
 
 
-				st.title("APP.CONFLITS : Gestion des données CHF")
+				st.title("APP. CONFLITS : Gestion des données CHF")
 
 				st.markdown("""
 					Cette Application est une version béta (en cours de developpement). Elle presente
